@@ -1,0 +1,25 @@
+.review1{
+    text-align: center;
+      width: 90%;
+      height: 250px;
+      background-color: rgb(53, 28, 117);
+      border: 3px rgb(255, 62, 207) solid;
+      color: rgb(0, 255, 115);
+      border-radius: 15px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .review2{
+    text-align: center;
+      width: 90%;
+      height: 250px;
+      background-color: rgb(53, 28, 117);
+      border: 3px rgb(255, 62, 207) solid;
+      color: rgb(0, 255, 115);
+      border-radius: 15px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
