@@ -71,6 +71,20 @@ body {
 
 .basket{
     position: absolute;
-    left: 1175px;
+    left: 1160px;
     top: 20px;
+}
+
+.LOGIN{
+  text-align: center;
+  border: 3px rgb(255, 62, 207) solid;
+  border-radius: 15px;
+  background-color: rgb(53, 28, 117);
+  color: rgb(0, 255, 55);
+  height: 400px;
+  width: 80%;
+  margin: 50px auto;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
