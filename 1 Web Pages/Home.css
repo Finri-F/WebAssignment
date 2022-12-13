@@ -51,11 +51,40 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .CommentsGrid > div:nth-child(1){
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(43, 23, 95);
+    
+  }
+
+  .CommentsGrid > div:nth-child(2){
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(43, 23, 95);
+    
+  }
+
+  .CommentsGrid > div:nth-child(3){
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(43, 23, 95);
+    
+  }
+
+  .CommentsGrid > div:nth-child(4){
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(43, 23, 95);
+    
+  }
+
   .Review1Grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: 70%;
     margin: 30px auto;
+    color: rgb(0, 255, 55);
   }
 
   .Image{
@@ -84,6 +113,24 @@
     border-radius: 15px;
     width: 100px;
     height: 50px;
+    background-color:  rgb(0, 200, 255);
+  }
+
+  .button2:hover{
+    background-color:rgb(0, 170, 217);
+  }
+
+  .button3{
+    background-color:  rgb(0, 200, 255);
+    text-align: center;
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .button3:hover{
+    background-color:rgb(0, 170, 217);
   }
 
   .ForzaReviewPage{
@@ -94,16 +141,40 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    color: rgb(0, 255, 55);
   }
 
   .BallBlast{
     border: 3px rgb(255, 62, 207) solid;
     border-radius: 15px;
     background-color: rgb(53, 28, 117);
-    height: 730px;
+    height: 750px;
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    color: rgb(0, 255, 55);
+  }
+
+  .BallBlastReview{
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 255, 55);
+  }
+
+  .CelesteReviewPage{
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 3300px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 255, 55);
   }
 
   /* Slideshow container */
@@ -156,3 +227,7 @@
     to {opacity: 1}
     }
 
+
+.translate{
+  background-color: rgb(53, 28, 117);
+}
