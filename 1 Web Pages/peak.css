@@ -1,0 +1,270 @@
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 0; 
+    margin: 0;
+    width: 100vw;
+  }
+
+.Heading {
+  background-color: rgb(221, 62, 255);
+    font-family:Cambria;
+    text-align:center;
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    font-family: 'Courgette', cursive;
+    color: rgb(0, 0, 0);
+  }
+
+  .title {
+    float: left;
+    width: 100%;
+    height: 120px;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    font-family: 'Courgette', cursive;
+    color: rgb(0, 0, 0);
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 90%;
+    height: 100px;
+    background-color: rgb(53, 28, 117);
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+
+  ul li {
+    display: inline;
+  }
+
+  ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: 3px rgb(255, 0, 60) solid;
+    border-radius: 15px;
+    background-color: rgb(0, 200, 255);
+    margin: 500px 30px;
+    border: 3px rgb(255, 62, 207) solid;
+    font-size: 12px;
+  }
+
+  ul li a:hover {
+    background-color: rgb(0, 170, 217);
+  }
+
+.logo{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+.basket{
+    position: absolute;
+    left: 1160px;
+    top: 20px;
+}
+
+.button1{
+  background: transparent;
+  border: transparent;
+}
+
+.button1 :hover{
+  background-color: gray;
+}
+
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  width:500px;
+  position: relative;
+  margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  }
+
+  .prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Fading animation */
+  .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+  }
+
+  img {
+    border-radius: 20%;
+    size-adjust: 500px;
+  }
+
+.PkmnReviewPage{
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 3300px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 200, 255);
+  }
+
+  .P5RReviewPage{
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 3300px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 200, 255);
+  }
+
+  .NSOReviewPage{
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 3300px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 200, 255);
+  }
+
+  .AINIReviewPage{
+  border: 3px rgb(255, 62, 207) solid;
+  border-radius: 15px;
+  background-color: rgb(53, 28, 117);
+  height: 3300px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(0, 200, 255);
+}
+
+.about{
+  border: 3px rgb(255, 62, 207) solid;
+  border-radius: 15px;
+  background-color: rgb(53, 28, 117);
+  height: 3300px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(0, 200, 255);
+}
+
+/*back button*/
+
+  .button3{
+    background-color:  rgb(0, 200, 255);
+    text-align: center;
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .button3:hover{
+    background-color:rgb(0, 170, 217);
+  }
+
+  .button2{
+    text-align: right;
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    background-color:  rgb(0, 200, 255);
+  }
+
+  .button2:hover{
+    background-color:rgb(0, 170, 217);
+  }
+
+  .Review1Grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 70%;
+    margin: 30px auto;
+    color: rgb(0, 255, 55);
+  }
+
+  .Image{
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 140px;
+  }
+
+
+  img{
+    border-radius: 15px;
+  }
+
+  .Text{
+    text-align: left;
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    background-color: rgb(53, 28, 117);
+    height: 100px;
+    margin-top: 20px;
+  }
+
+
+  .buttondetail{
+    background-color:  rgb(0, 200, 255);
+    text-align: center;
+    border: 3px rgb(255, 62, 207) solid;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .buttondetail:hover{
+    background-color:rgb(0, 170, 217);
+  }
+
+
